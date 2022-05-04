@@ -1,0 +1,15 @@
+# Environments
+env/
+
+# Parameters
+parameters/**
+!parameters/checkExistDistinctOptTours_sampleParameters.txt
+!parameters/checkOptimalResults_sampleParameters.txt
+!parameters/evaluateResults_sampleParameters.txt
+!parameters/getDataInstance_sampleParameters.txt
+!parameters/problemSolve_sampleParameters.txt
+!parameters/saveDistanceMatrix_sampleParameters.txt
+!parameters/statisticsPlot_sampleParameters.txt
+
+# Byte-compiled / optimized / DLL files
+app/**/__pycache__
