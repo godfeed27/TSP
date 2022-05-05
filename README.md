@@ -83,7 +83,9 @@ Example:
 ## Clone repository
 First of all, you need to download the repository. You can either run the script below on the command-line or terminal:
 
-`git clone https://github.com/godfeed27/TSP.git`
+```console
+git clone https://github.com/godfeed27/TSP.git
+```
 
 or download zip file of repository and unzip. 
 
