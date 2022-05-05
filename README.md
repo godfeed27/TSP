@@ -68,30 +68,22 @@ Therefore, the record `dsj1000EUC_2D` is removed and the record `dsj1000CEIL_2D`
 
 ### References
 
-[Ant Colony Optimization](https://web2.qatar.cmu.edu/~gdicaro/15382/additional/aco-book.pdf)
-
-### Algorithm Abbreviation
-| Algorithm        | Abbreviation | Doers |
-|:---------------------:|:---------:|---:|
-|Ant Colony      | ac |Tran Thanh Tung|
-|Genetic Algorithm   | ga |Tran Thanh Tung
-| Greedy Randomized Adaptive Search Procedures| grasp| Nguyen Van Quan & Dang Quy Anh |
-| Greedy | greedy | Phan Viet Tan |
-| Simulated Annealing | sa | Phan Viet Tan & Nguyen Ngoc Hai |
-| Tabu Search | tabu | Dang Quang Anh & Cao Viet Tung |
+[Edmund K. Burke, Graham Kendall. "Search Methodologies", 2014, 2nd Edition, Springer](https://sci-hub.se/https://link.springer.com/book/10.1007/978-1-4614-6940-7)
+[Tabu Search Method for Solving the Traveling salesman Problem - Isra Natheer Alkallak, Ruqaya Zedan Sha’ban](https://pdfs.semanticscholar.org/757c/ef560d69f52f903cedef227fbb836552f488.pdf?_ga=2.260768909.1289047464.1651742187-193124755.1651742187)
+[David L. Applegate, Robert E. Bixby, Vaˇsek Chvátal, and William J. Cook. "The Traveling Salesman Problem: A Computational Study", Princeton University Press](https://libgen.is/book/index.php?md5=0D8A8DFC771F06CF8A269BD71BBA78A7)
 
 # Installation
 
 ***Note: The directory in Linux is different from that in Windows. Therefore, if errors with '/' and '\\' encountered, the path need to be modified.*** 
 
 Example:
-- On Linux:	`https://github.com/optimahus`
-- On Windows:	`https:\\github.com\optimahus`
+- On Linux:	`https://github.com/godfeed27`
+- On Windows:	`https:\\github.com\godfeed27`
 
 ## Clone repository
 First of all, you need to download the repository. You can either run the script below on the command-line or terminal:
 
-`git clone https://github.com/optimahus/TSP.git`
+`git clone https://github.com/godfeed27/TSP.git`
 
 or download zip file of repository and unzip. 
 
