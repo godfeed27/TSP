@@ -4,7 +4,7 @@ TSP_FOLDER:path/to/TSP
 # Use key ALL to run all problems
 PROBLEM_NAMES:ulysses16,ulysses22,att48
 
-# ac,ga,grasp,greedy,sa,tabu
+# greedy,sa,tabu
 ALGORITHM_NAMES:ac,ga,grasp,greedy,sa,tabu
 
 DATA_INSTANCES_FOLDER:statistics/instances

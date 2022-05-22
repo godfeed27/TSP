@@ -17,8 +17,8 @@ LOGS_FOLDER:logs
 # Do you want to export solution ? yes or no 
 EXPORT_SOLUTION:yes
 
-# brg180.tabu.20211110.tour
-DATE_RUN:20211110
+# brg180.tabu.20222205.tour
+DATE_RUN:20222205
 
 # verbose value is 0:No print, 1:Print comment and Total Distance, 2:Print all algorithms's process
 VERBOSE:1
@@ -27,6 +27,9 @@ VERBOSE:1
 TABUS_SIZE:0.3
 NEIGHBOR_SIZE:3
 
-# parameter for grasp
-MAX_ITERATION:300
-GREEDINESS_VALUE:0.98
+# parameter for sa
+# TEMPERATURE:1000
+COOLING_RATE:0.9977
+STOPPING_TEMPERATURE:1e-8
+STOPPING_ITER:1000
+TIMES:10000
