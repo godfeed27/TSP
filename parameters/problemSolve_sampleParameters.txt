@@ -4,8 +4,8 @@ TSP_FOLDER:path/to/TSP
 # Use key ALL to run all problems
 PROBLEM_NAMES:ulysses16,ulysses22,att48
 
-# ac,ga,grasp,greedy,sa,tabu
-ALGORITHM_NAMES:ac,ga,grasp,greedy,sa,tabu
+# greedy,sa,tabu
+ALGORITHM_NAMES:greedy,sa,tabu
 TIME_LIMIT_OPTIONS:100~60|1000~600|10000~600|100000~1200
 
 DATA_FOLDER:data
@@ -30,18 +30,3 @@ NEIGHBOR_SIZE:3
 # parameter for grasp
 MAX_ITERATION:300
 GREEDINESS_VALUE:0.98
-
-# parameter for sa
-# TEMPERATURE:1000
-COOLING_RATE:0.9977
-STOPPING_TEMPERATURE:1e-8
-STOPPING_ITER:1000
-TIMES:10000
-
-# parameter for ac
-COLONY_SIZE:25
-
-# parameter for ga
-POP_SIZE:100
-NUM_GENERATION:100
-PROB_MUTATE:0.1

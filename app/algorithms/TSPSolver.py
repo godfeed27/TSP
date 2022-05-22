@@ -1,8 +1,5 @@
 import time
 
-from .AntColony import ACO
-from .GeneticAlgorithms import GA
-from .Grasp import Grasp
 from .Greedy import Greedy
 from .Tabu import Tabu
 from .SimulatedAnnealing import SimulatedAnnealing
@@ -10,7 +7,7 @@ from .SimulatedAnnealing import SimulatedAnnealing
 
 class TSPSolver:
     def __init__(self, algoName, dataModel, constantDict, timeLimit):
-        algoList = [ACO, GA, Grasp, Greedy, SimulatedAnnealing, Tabu]
+        algoList = [Greedy, SimulatedAnnealing, Tabu]
         self.algorithm = None
 
         for algo in algoList:
