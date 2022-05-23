@@ -35,11 +35,11 @@ for problemName in problemNamesList:
     givenCoordinates = dataDescription['GIVEN_COORDINATES']
 
     dataDict = {}
-    dataDict['NAME'] = problemName
-    dataDict['DIMENSION'] = dimension
-    dataDict['BEST_KNOWN_SOLUTION'] = bestKnownSolution
-    dataDict['EXIST_OPTIMAL_TOUR'] = existOptimalTour
-    dataDict['GIVEN_COORDINATES'] = givenCoordinates
+    dataDict['name'] = problemName
+    dataDict['dimension'] = dimension
+    dataDict['bestKnownSolution'] = bestKnownSolution
+    dataDict['existOptimalTour'] = existOptimalTour
+    dataDict['givenCoordinates'] = givenCoordinates
     dataList.append(dataDict)
 
 df = pd.DataFrame(dataList)
